@@ -1,4 +1,4 @@
-![Alt text for accessibility](chat.png)
+![Alt text for accessibility](pictures/chat.png)
 
 # Project Name
 
