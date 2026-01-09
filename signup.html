@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sign Up — Ecommerce</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/auth.css">
+</head>
+<body>
+  <main>
+    <div class="auth-container">
+      <h1>Create an account</h1>
+      <form id="signup-form">
+        <label for="name">Full name</label>
+        <input id="name" name="name" type="text">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" required>
+        <button type="submit">Create account</button>
+      </form>
+      <p>Already have an account? <a href="login.html">Login</a></p>
+      <div id="signup-msg" class="hidden"></div>
+    </div>
+  </main>
+  <script src="js/auth.js"></script>
+</body>
+</html>

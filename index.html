@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Francesca de Luis — Modern Womenswear</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <meta name="description" content="Francesca de Luis — modern women’s fashion. Clean design, responsive, product gallery and quick view." />
+     
+</head>
+<body>
+ <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo">FD</div>
+        <div>
+          <div style="font-weight:700">Francesca De Luis Store</div>
+          <div style="font-size:12px;color:var(--muted)">Modern womenswear</div>
+        </div>
+      </div> <br>
+      <nav>
+        <a href="#collections">Categories</a>
+        <a href="#about">About</a>
+        <a href="#journal">Blog</a>
+        <a href="#contact">Contact</a>
+        <a class="cta" href="#collections">Shop Now</a>
+      </nav>
+      <div class="top-icons">
+      <a href="login.html" id="account-link" class="icon-link">
+        <i class="fas fa-user"></i>
+        <span>Account</span>
+      </a>
+
+    <a href="wishlist.html" class="icon-link">
+      <i class="fas fa-heart"></i>
+      <span>Wishlist</span>
+    </a>
+
+      <a href="#" class="icon-link" id="cart-toggle" aria-label="Open cart">
+        <i class="fas fa-shopping-bag"></i>
+        <span>Cart</span>
+        <span id="cart-count" class="cart-badge" aria-hidden="true">0</span>
+      </a>
+      <!-- direct cart page link -->
+      <a href="cart.html" class="icon-link" title="Open cart page">
+        <i class="fas fa-shopping-cart"></i>
+        <span>Cart Page</span>
+      </a>
+
+    <a href="support.html" class="icon-link">
+        <i class="fas fa-headset"></i>
+        <span>Support</span>
+    </a>
+</div>
+
+      <button class="nav-toggle" aria-label="open menu">☰</button>
+
+     
+
+    </header>
+
+    <section class="hero">
+      <div class="hero-left">
+        <div class="eyebrow">New Arrival — Autumn / Winter</div>
+        <h1><span id="hero-text"></span></h1>
+
+        <!--<h1>Minimal silhouettes with rich texture. Clothes that age like wine.</h1>-->
+        <p class="lead">A curated edit of elevated everyday pieces — denim with structure, knitwear that hugs, outerwear that travels. Designed for women who value craft and quiet luxury.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#collections">Shop Collection</a>
+          <a class="btn btn-ghost" href="#about">Our Story</a>
+        </div>
+        <div style="margin-top:18px;display:flex;gap:8px;align-items:center">
+          <div class="badge">Limited</div>
+          <div style="color:var(--muted);font-size:14px">Free local shipping for orders over $150</div>
+        </div>
+      </div>
+      <div class="hero-right">
+       <!-- <img class="hero-image" src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=1200&q=80" alt="model wearing modern fashion">-->
+      <section id="hero-slider">
+
+  <div class="slider-container">
+
+    <div class="slide fade">
+      <img src="images/hero1.jpg" alt="Slide 1">
+    </div>
+
+    <div class="slide fade">
+      <img src="images/hero2.jpg" alt="Slide 2">
+    </div>
+
+    <div class="slide fade">
+      <img src="images/hero3.jpg" alt="Slide 3">
+    </div>
+
+  </div>
+
+  <!-- DOTS -->
+  <div class="dots">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+
+</section>
+
+      </div>
+    </section>
+
+    <!-- Product Category-->
+     <section id="categories" class="section">
+  <h2>Product Categories</h2>
+  <div class="cat-grid">
+
+    <div class="cat-card">
+      <img src="images/shoes2.jpg" alt="Shoes">
+      <div class="cat-title">Shoes</div>
+    </div>
+
+    <div class="cat-card">
+      <img src="images/maxi.jpg" alt="Dresses">
+      <div class="cat-title">Dresses</div>
+    </div>
+
+    <div class="cat-card">
+      <img src="images/pants.jpg" alt="Wigs">
+      <div class="cat-title">Pants</div>
+    </div>
+
+    <div class="cat-card">
+      <img src="images/blouse.jpg" alt="Makeup">
+      <div class="cat-title">Blouses</div>
+    </div>
+
+    <div class="cat-card">
+      <img src="images/bag.jpg" alt="Bags">
+      <div class="cat-title">Bags</div>
+    </div>
+
+    <div class="cat-card">
+      <img src="images/acc.jpg" alt="Accessories">
+      <div class="cat-title">Accessories</div>
+    </div>
+
+    
+    <div class="cat-card">
+      <img src="images/shelf.jpg" alt="Accessories">
+      <div class="cat-title">Home and Living</div>
+    </div>
+
+    
+    <div class="cat-card">
+      <img src="images/seat.jpg" alt="Accessories">
+      <div class="cat-title">Sweatshirts</div>
+    </div>
+
+    
+    <div class="cat-card">
+      <img src="images/denim.jpg" alt="Accessories">
+      <div class="cat-title">Denim</div>
+    </div>
+
+    
+    <div class="cat-card">
+      <img src="images/beauty.jpg" alt="Accessories">
+      <div class="cat-title">Beauty and Health</div>
+    </div>
+
+    
+    <div class="cat-card">
+      <img src="images/sleepware.jpg" alt="Accessories">
+      <div class="cat-title">Underwear & Sleepwear</div>
+    </div>
+
+    <div class="cat-card">
+      <img src="images/jumpsuits.jpg" alt="Accessories">
+      <div class="cat-title">Jumpsuits & Rompers</div>
+
+  </div>
+  
+
+
+
+</section>
+
+<section id="super-deals" class="section">
+  <h2 class="deals-title">🔥 Super Deals</h2>
+
+  <div class="deals-grid">
+
+    <div class="deal-card">
+      <img src="images/wigs.jpg" alt="Deal Product">
+      <h3>Luxury Wig 26"</h3>
+      <div class="price-box">
+        <span class="old-price">$500</span> 
+        <span class="new-price">$200</span>
+      </div>
+    </div>
+
+    <div class="deal-card">
+      <img src="images/sneaker.jpg" alt="Deal Product">
+      <h3>Premium Sneakers</h3>
+      <div class="price-box">
+        <span class="old-price">$500</span>
+        <span class="new-price">$250</span>
+      </div>
+    </div>
+
+    <div class="deal-card">
+      <img src="images/makeup.jpg" alt="Deal Product">
+      <h3>Makeup Bundle</h3>
+      <div class="price-box">
+        <span class="old-price">$1000</span>
+        <span class="new-price">$800</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="collections" class="section">
+  <h2>Featured Pieces</h2>
+
+  <!-- ADD THIS WRAPPER -->
+  <div id="product-wrapper" style="max-height:600px; overflow:hidden; transition:0.4s ease;">
+    <div class="grid" id="product-grid">
+      <!-- products injected by JS -->
+    </div>
+  </div>
+
+  <!-- ADD THIS BUTTON -->
+  <button id="viewMoreBtn" class="btn" style="margin-top:20px;">View More</button>
+</section>
+
+
+
+    <section class="section fade-up">
+      <h2>Editorial Picks</h2>
+      <div class="featured">
+        <div class="tile" style="background-image:url('images/cosy.jpg');background-size:cover;background-position:center">
+          <div class="txt">The Knit Edit — Elevated cozy</div>
+        </div>
+        <div class="tile" style="background-image:url('images/long.jpg');background-size:cover;background-position:center">
+          <div class="txt">Outerwear for long nights</div>
+        </div>
+        <div class="tile" style="background-image:url('images/date.png');background-size:cover;background-position:center">
+          <div class="txt">Date night outfits</div>
+      </div>
+      <div class="tile" style="background-image:url('images/evening.png');background-size:cover;background-position:center">
+          <div class="txt">Formal evening wear</div>
+      </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About Francesca</h2>
+      <p style="color:var(--muted);max-width:820px">Francesca de Luis began as a small atelier blending traditional tailoring techniques with modern materials. Our mission is to create pieces that last beyond seasons — clothes that are built, not just bought. We care about fit, fabric, and the stories woven into every seam.</p>
+    </section>
+
+    <section id="journal" class="section">
+      <h2>From our Blog</h2>
+      <div class="blog-carousel">
+        <div class="blog-card">
+          <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80" alt="journal">
+          <h3 style="margin:10px 0 6px">How to build a capsule wardrobe</h3>
+          <p style="color:var(--muted);font-size:14px">Capsules are about intentionality — curate a small set of pieces that work together without sacrificing style.</p>
+        </div>
+        <div class="blog-card">
+          <img src="images/1000038882.jpg" alt="journal">
+          <h3 style="margin:10px 0 6px">Fabric care 101</h3>
+          <p style="color:var(--muted);font-size:14px">Simple steps to keep your pieces looking new — from gentle wash cycles to proper storage.</p>
+        </div>
+         <div class="blog-card">
+          <img src="images/expensive.png" alt="journal">
+          <h3 style="margin:10px 0 6px">How to look expensive on  budget</h3>
+          <p style="color:var(--muted);font-size:14px">Simple ways of looking expensive on a budget.</p>
+        </div>
+
+         <div class="blog-card">
+          <img src="images/history.png" alt="journal">
+          <h3 style="margin:10px 0 6px">Fashion History</h3>
+          <p style="color:var(--muted);font-size:14px">How denim took over the world.</p>
+        </div>
+
+         <div class="blog-card">
+          <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1200&q=80" alt="journal">
+          <h3 style="margin:10px 0 6px">Fit guide for different body types</h3>
+          <p style="color:var(--muted);font-size:14px">How to shop mindfully and build a wardrobe that’s good for your body type.</p>
+        <div class="blog-controls">
+  <button id="blog-prev">&#10094;</button>
+  <button id="blog-next">&#10095;</button>
+</div>
+
+      </div>
+    </section>
+
+    <section id="subscribe" class="section">
+  <div class="subscribe-box">
+    <h2 class="big-offer">GET 30% OFF YOUR FIRST ORDER & FREE SHIPPING</h2>
+    <p class="sub-text">Subscribe to get special offers, free giveaways and once-in-a-lifetime deals.</p>
+
+    <form class="subscribe-form">
+      <input type="email" placeholder="Enter your email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+</section> 
+
+
+    <section id="contact" class="section fade-up">
+      <h2>Contact & Wholesale</h2>
+        <footer id="main-footer">
+
+  <div class="footer-container">
+
+    <!-- COLUMN 1 -->
+    <div class="footer-column">
+      <h3>Company Info</h3>
+      <ul>
+        <li><a href="#">About Francesca De Luis</a></li>
+        <li><a href="#">Beauty & Fashion Blog</a></li>
+        <li><a href="#">Social Responsibility</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Cookie policy</a></li>
+      </ul>
+    </div>
+
+    <!-- COLUMN 2 -->
+    <div class="footer-column">
+      <h3>Help & Support</h3>
+      <ul>
+        <li><a href="#">Shipping Info</a></li>
+        <li><a href="#">Returns</a></li>
+        <li><a href="#">Refund Policy</a></li>
+        <li><a href="#">How To Order</a></li>
+        <li><a href="#">How To Track</a></li>
+        <li><a href="#">Size Guide</a></li>
+      </ul>
+    </div>
+
+    <!-- COLUMN 3 -->
+    <div class="footer-column">
+      <h3>Customer Care</h3>
+      <ul>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Payment Methods</a></li>
+        <li><a href="#">Rewards & Bonus Points</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+      </ul>
+    </div>
+
+    <!-- COLUMN 4 -->
+    <div class="footer-column">
+      <h3>Find Us On</h3>
+      <div class="social-icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-tiktok"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+
+      <h3>App</h3>
+      <div class="app-icons">
+        <img src="images/appstore.png" alt="App Store">
+        <img src="images/googleplay.png" alt="Google Play">
+      </div>
+
+  <div class="payments">
+    <h4>We Accept</h4>
+    <img src="images/pay-icons.png" alt="Payments">
+    <img src="images/paypal.png" alt="Secure">
+    <img src="images/MasterCard Logo.png" alt="SSL">
+  </div>
+
+  
+</footer>
+
+      <div class="footer-column contact-info" style="font-size: 16px; line-height: 1.8; padding: 20px 0; font-family: var(--ff-body); color: #333;">
+      <h3>Contact Us</h3>
+      <p>Have questions or need assistance? Our customer support team is here to help you with anything you need.<br>
+        Interested in carrying our line? Send wholesale inquiries with subject "Wholesale".</p>
+      <p><strong>Email:</strong> customers@francescadeluis.com<br>
+        <strong>Phone:</strong> +1 (555) 123-4567<br>
+        <strong>Address:</strong> 123 Fashion St, New York, NY 10001</p>
+
+  </div>
+    
+  <div class="footer-bottom">
+    <div style="color:var(--muted)">© <span id="year"></span> Francesca de Luis. All rights reserved.</div>
+  </div>
+
+
+
+  <!--product modal -->
+  <!-- mini cart drawer -->
+  <div id="mini-cart" class="mini-cart" aria-hidden="true">
+    <div class="mini-cart-card">
+      <div class="mini-cart-header">
+        <div>Your Cart</div>
+        <button id="mini-cart-close" class="close" aria-label="Close cart">✕</button>
+      </div>
+      <div id="mini-cart-items" class="mini-cart-items"></div>
+      <div class="mini-cart-footer">
+        <div class="mini-cart-total">Total: <strong id="mini-cart-total">$0.00</strong></div>
+        <div style="margin-top:12px;display:flex;gap:8px">
+          <button id="mini-cart-checkout" class="btn btn-primary">Checkout</button>
+          <button id="mini-cart-clear" class="btn">Clear</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal" class="modal" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <img id="modal-img" src="" alt="product image">
+      <div class="info">
+        <div style="display:flex;justify-content:space-between;align-items:center">
+          <h3 id="modal-title">Title</h3>
+          <div class="close" id="modal-close">✕</div>
+        </div>
+        <p id="modal-desc" style="color:var(--muted)"></p>
+        <div style="margin-top:12px;font-weight:700" id="modal-price"></div>
+
+        <!-- Size & Quantity -->
+        <div class="product-controls" style="margin-top:14px;display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+          <div class="size-wrap">
+            <label for="modal-size" style="font-weight:700;display:block;margin-bottom:6px">Size</label>
+            <select id="modal-size" class="size-select">
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+            </select>
+          </div>
+
+          <div class="qty-wrap">
+            <label style="font-weight:700;display:block;margin-bottom:6px">Quantity</label>
+            <div class="qty-control" style="display:flex;align-items:center;gap:8px">
+              <button id="qty-decrease" class="qty-btn btn">−</button>
+              <div id="modal-quantity" class="qty-display" style="min-width:28px;text-align:center;font-weight:700">1</div>
+              <button id="qty-increase" class="qty-btn btn">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top:18px;display:flex;gap:12px;align-items:center">
+          <button id="modal-add" class="btn btn-primary">Add to cart</button>
+          <!-- wishlist heart: toggles filled/outlined -->
+          <button id="modal-wishlist-btn" class="btn" aria-pressed="false" title="Add to wishlist" style="display:inline-flex;align-items:center;gap:8px">
+            <i id="modal-wishlist" class="fa-regular fa-heart" aria-hidden="true"></i>
+            <span>Wishlist</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/products.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/account.js"></script>
+
+ 
+
+
+ 
+
+
+  
+  
+
+  
+
+
+
+
+
+  
+</body>
+</html>

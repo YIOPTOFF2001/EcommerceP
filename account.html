@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>My Account — Ecommerce</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/auth.css">
+</head>
+<body>
+  <main>
+    <div class="auth-container">
+      <h1>My Account</h1>
+      <div id="account-details">
+        <p>Loading account information...</p>
+      </div>
+
+      <!-- Change Password Section -->
+      <div id="change-password-section" style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee;">
+        <h2 style="margin-bottom: 15px;">Change Password</h2>
+        <form id="change-password-form">
+          <label for="current-password">Current Password</label>
+          <input id="current-password" name="current_password" type="password" required>
+
+          <label for="new-password">New Password</label>
+          <input id="new-password" name="new_password" type="password" required minlength="6">
+
+          <label for="confirm-password">Confirm New Password</label>
+          <input id="confirm-password" name="confirm_password" type="password" required minlength="6">
+
+          <button type="submit">Update Password</button>
+        </form>
+        <div id="password-msg" class="hidden"></div>
+      </div>
+
+      <!-- Delete Account Section -->
+      <div id="delete-account-section" style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee;">
+        <h2 style="margin-bottom: 15px; color: #dc3545;">Danger Zone</h2>
+        <p style="color: #666; margin-bottom: 15px;">Once you delete your account, there is no going back. Please be certain.</p>
+        <button id="delete-account-btn" style="background: #dc3545; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">Delete Account</button>
+        <div id="delete-msg" class="hidden"></div>
+      </div>
+
+      <div id="account-actions" style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee;">
+        <a href="index.html" class="btn" style="margin-right: 10px;">Continue Shopping</a>
+        <button id="logout-btn" class="btn">Logout</button>
+      </div>
+    </div>
+  </main>
+  <script src="js/account.js"></script>
+</body>
+</html>

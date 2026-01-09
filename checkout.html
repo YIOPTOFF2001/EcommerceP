@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Checkout — Ecommerce</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">Ecommerce</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Checkout</h1>
+    <div class="checkout-grid">
+      <section class="checkout-form">
+        <h2>Shipping & Contact</h2>
+        <form id="checkout-form">
+          <label for="fullname">Full name</label>
+          <input id="fullname" name="fullname" type="text" required>
+
+          <label for="phone">Phone number</label>
+          <input id="phone" name="phone" type="tel" required>
+
+          <label for="address1">Address line 1</label>
+          <input id="address1" name="address1" type="text" required>
+
+          <label for="address2">Address line 2</label>
+          <input id="address2" name="address2" type="text">
+
+          <label for="city">City</label>
+          <input id="city" name="city" type="text" required>
+
+          <label for="state">State / Region</label>
+          <input id="state" name="state" type="text" required>
+
+          <label for="zip">Postal / ZIP</label>
+          <input id="zip" name="zip" type="text" required>
+
+          <label for="country">Country</label>
+          <input id="country" name="country" type="text" required>
+
+          <button id="place-order" class="btn" type="submit">Proceed to Payment</button>
+        </form>
+      </section>
+
+      <aside class="checkout-summary">
+        <h2>Order Summary</h2>
+        <div id="summary-items"></div>
+        <div class="summary-total">Total: <span id="summary-total">$0.00</span></div>
+      </aside>
+    </div>
+
+    <div id="checkout-result" class="hidden"></div>
+  </main>
+
+  <script src="js/products.js"></script>
+  <script src="js/checkout.js"></script>
+  <script src="js/account.js"></script>
+</body>
+</html>

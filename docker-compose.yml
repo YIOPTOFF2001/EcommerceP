@@ -1,0 +1,28 @@
+
+services:
+  web:
+    build: .
+    image: php:8.2-apache
+    container_name: ecommerce-web
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/var/www/html   # map only your public web folder
+    restart: always
+  db:
+    image: postgres:15
+    container_name: ecommerce-postgres
+    environment:
+      POSTGRES_USER: yolanda
+      POSTGRES_PASSWORD: strongpassword
+      POSTGRES_DB: francesca_de_luis
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: always
+
+volumes:
+  postgres_data:
+
+
