@@ -55,7 +55,7 @@ When an order is successfully placed, email notifications are sent to both the u
 
 ### Frontend Integration
 
-The frontend communicates with the backend exclusively through API calls. Checkout actions clear the cart only after a successful backend response. Error handling is implemented for validation failures and network issues
+The frontend communicates with the backend exclusively through API calls. Checkout actions clear the cart only after a successful backend response. Error handling is implemented for validation failures and network issues. The frontend is built with HTML, CSS, and JavaScript. The backend is written in PHP and exposes REST-style API endpoints. PostgreSQL is used as the database. Docker is used for local development and service orchestration. The frontend communicates with the backend through API endpoints. Authentication is handled via sessions, and user roles are checked server-side to protect sensitive routes. When a user places an order, the backend validates the request, saves the order to the database, sends email notifications, and returns an order ID to the frontend.
 
 ## Tech Stack
 ### Frontend
@@ -134,6 +134,10 @@ Enhanced frontend responsiveness
 ## SEO optimization
 
 Logging and monitoring
+
+## Running the Project Locally
+
+Clone the repository and ensure Docker is installed on your machine. Use Docker Compose to start the backend services and database. Once the containers are running, access the application through your local server address.
 
 ### Author
 
