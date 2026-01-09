@@ -75,3 +75,21 @@ REST-style API endpoints
 ### Database
 
 PostgreSQL
+### DevOps & Tooling
+
+Docker
+
+Docker Compose
+
+Git & GitHub
+
+Visual Studio Code
+
+### Other Tools & Services
+
+Email delivery via PHP mail configuration or third-party services (e.g. SendGrid)
+
+JSON for structured data storage
+
+Session-based authentication
+
