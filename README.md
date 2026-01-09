@@ -1,4 +1,4 @@
-![Alt text for accessibility](images/logo.png)
+![Alt text for accessibility](ChatGPT Image Jan 9, 2026, 06_10_45 AM.png)
 
 # Project Name
 
