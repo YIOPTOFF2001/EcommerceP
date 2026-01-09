@@ -1,4 +1,7 @@
+![Alt text for accessibility](images/logo.png)
+
 # Project Name
+
 
 This is a full-stack e-commerce style web application built as a public, hands-on learning project. The purpose of this project is to design and implement a real backend-driven system with authentication, order processing, admin control, and database persistence, rather than a frontend-only prototype.
 
