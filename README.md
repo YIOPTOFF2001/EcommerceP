@@ -93,3 +93,49 @@ JSON for structured data storage
 
 Session-based authentication
 
+## Architecture Overview
+
+The frontend interacts with the backend through HTTP API requests. The backend handles authentication, validation, business logic, and database interactions. PostgreSQL serves as the persistent data store. Docker is used to containerize the backend and database for consistent local development.
+
+## Database Schema
+
+The database currently includes:
+
+users table for authentication and roles
+
+orders table for order storage (user ID, items, totals, shipping info, status, timestamps)
+
+Additional tables such as order_items are planned as the system evolves.
+
+Running the Project Locally
+
+Ensure Docker and Docker Compose are installed. Clone the repository and start the services using Docker Compose. The backend and database will be started in containers.
+
+Database setup scripts are included and must be run before using the application.
+
+Once running, access the frontend through your local development server.
+
+## Project Status
+
+This project is under active development and is being built publicly. Features, structure, and implementation details may change as the system grows.
+
+Planned Improvements
+
+Payment gateway integration (Stripe or PayPal)
+
+## Inventory tracking
+
+Order item normalization
+
+Improved admin tooling
+
+Enhanced frontend responsiveness
+
+## SEO optimization
+
+Logging and monitoring
+
+### Author
+
+Yolanda Mussana
+
