@@ -56,3 +56,22 @@ When an order is successfully placed, email notifications are sent to both the u
 ### Frontend Integration
 
 The frontend communicates with the backend exclusively through API calls. Checkout actions clear the cart only after a successful backend response. Error handling is implemented for validation failures and network issues
+
+## Tech Stack
+### Frontend
+
+HTML5
+
+CSS3
+
+JavaScript (Vanilla JS)
+
+Backend
+
+PHP
+
+REST-style API endpoints
+
+### Database
+
+PostgreSQL
