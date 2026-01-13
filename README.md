@@ -153,6 +153,8 @@ The category section groups similar products together.
 ![Alt text for accessibility](pictures/modal.png)
 The modal sections enables users to view the deatured products listed on the site. The user can either add the product to the cart or add the product to the wishlist.
 ![Alt text for accessibility](pictures/dont.png)
+
+The fear=tured pieces sections adds...
 ![Alt text for accessibility](pictures/disc.png)
 ![Alt text for accessibility](pictures/hot.png)
 ![Alt text for accessibility](pictures/sand.png)
