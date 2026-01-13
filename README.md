@@ -141,12 +141,14 @@ Clone the repository and ensure Docker is installed on your machine. Use Docker 
 
 
 ### Author
+Yolanda Mussana
 
 ## STEP 1: Frontend development
 
 ![Alt text for accessibility](pictures/home.png)
+As per c,ient request, I have created a simple, clean and modern homw page for the ecommerce store. The home page consist of the categories section, blog, user account, wiahlist, cart, support section and many others listed. The client wanted me to stick with her colour scheme, which was well represented on the site.
 
 
 
-Yolanda Mussana
+
 
