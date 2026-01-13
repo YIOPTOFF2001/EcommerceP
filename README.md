@@ -148,8 +148,10 @@ Yolanda Mussana
 ![Alt text for accessibility](pictures/home.png)
 As per client request, I have created a simple, clean and modern homw page for the ecommerce store. The home page consist of the categories section, blog, user account, wiahlist, cart, support section and many others listed. The client wanted me to stick with her colour scheme, which was well represented on the site.
 
-![Alt text for accessibility](pictures/home.png)
-Screenshot 2026-01-10 143454.png
+![Alt text for accessibility](pictures/category.png)
+![Alt text for accessibility](pictures/modal.png)
+![Alt text for accessibility](pictures/dont.png)
+
 
 
 
