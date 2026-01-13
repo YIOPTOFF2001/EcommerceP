@@ -146,15 +146,21 @@ Yolanda Mussana
 ## STEP 1: Frontend development
 
 ![Alt text for accessibility](pictures/home.png)
+
 As per client request, I have created a simple, clean and modern homw page for the ecommerce store. The home page consist of the categories section, blog, user account, wiahlist, cart, support section and many others listed. The client wanted me to stick with her colour scheme, which was well represented on the site.
 
 ![Alt text for accessibility](pictures/category.png)
+
 The category section groups similar products together.
+
 ![Alt text for accessibility](pictures/modal.png)
+
 The modal sections enables users to view the deatured products listed on the site. The user can either add the product to the cart or add the product to the wishlist.
+
 ![Alt text for accessibility](pictures/dont.png)
 
-The fear=tured pieces sections adds...
+The featred pieces section display the most sought after items.
+
 ![Alt text for accessibility](pictures/disc.png)
 ![Alt text for accessibility](pictures/hot.png)
 ![Alt text for accessibility](pictures/sand.png)
