@@ -153,6 +153,8 @@ As per client request, I have created a simple, clean and modern homw page for t
 ![Alt text for accessibility](pictures/dont.png)
 ![Alt text for accessibility](pictures/disc.png)
 ![Alt text for accessibility](pictures/hot.png)
+![Alt text for accessibility](pictures/sand.png)
+![Alt text for accessibility](pictures/name.png)
 
 
 
