@@ -162,8 +162,11 @@ The modal sections enables users to view the deatured products listed on the sit
 The featred pieces section display the most sought after items.
 
 ![Alt text for accessibility](pictures/disc.png)
+
 ![Alt text for accessibility](pictures/hot.png)
+
 ![Alt text for accessibility](pictures/sand.png)
+
 ![Alt text for accessibility](pictures/name.png)
 
 
