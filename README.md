@@ -1,16 +1,15 @@
 ![Alt text for accessibility](pictures/chat.png)
 
-# Full-Stack Development for a Clothing Brand
+# Full-Stack Development for a Clothing Brand: Francesca De Luis
 
 
-This is a full-stack e-commerce style web application built.  The goal of this project is to design and implement a real-world system that handles authentication, orders, admin management, and backend processing, not just frontend visuals. An online store approached me and requested that I build a full stack project that accepts and places customers orders in real time.
+This is a full-stack e-commerce style web application built.  The goal of this project is to design and implement a real-world system that handles AUTHENTIFICATION, ORDERS, ADMIN MANAGEMENT, and BACKEND PROCESSING. An online store approached me and requested that I build a full stack project that accepts and places customers orders in real time.
 
 The project is being built incrementally, with a focus on clean architecture, security, and practical functionality.
 
 ## Project Functionality
-I'm building an e-commerce platform for a clothing brand. At its core, this e-commerce platform is designed to do one thing well: turn attention into transactions reliably.
 
-The site must allow users to browse products effortlessly, understand value immediately, and complete a purchase with minimal friction. That means a clean product catalogue with categories, filters, and search that actually works. Each product page must convey trust, featuring clear pricing, high-quality images, detailed descriptions, an accurate availability status, and a visible call to action. 
+The site must allow users to browse products effortlessly, understand value immediately, and complete a purchase with minimal friction. That means a clean product catalogue with categories, and search that actually works. Each product page must convey trust, featuring clear pricing, high-quality images, detailed descriptions, an accurate availability status, and a visible call to action. 
 
 Users must be able to create accounts, log in securely, manage their profiles, view order history, and receive transactional emails or notifications. Checkout must be fast, mobile-first, and localized for the market — meaning correct currency, relevant payment methods, and realistic delivery options.
 Payments are a big part of the spec. The system must integrate with reliable payment gateways suitable for the region, handle failed transactions gracefully, and confirm orders only when payments are actually verified. 
@@ -29,7 +28,7 @@ Implement secure user authentication and role-based access control
 
 Design and manage order processing logic
 
-Practice working with APIs, databases, and Dockerized environments
+Work with APIs, databases, and Dockerized environments
 
 Simulate real production patterns used in modern web applications
 
@@ -139,7 +138,15 @@ Logging and monitoring
 
 Clone the repository and ensure Docker is installed on your machine. Use Docker Compose to start the backend services and database. Once the containers are running, access the application through your local server address.
 
+
+
 ### Author
+
+## STEP 1: Frontend development
+
+![Alt text for accessibility](pictures/home.png)
+
+
 
 Yolanda Mussana
 
