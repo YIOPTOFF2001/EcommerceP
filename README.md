@@ -222,9 +222,7 @@ CREATE TABLE users (
 );
 ```
 
-
-
-
+### Step 2: Connecting the create account page to the database
 
 ![Alt text for accessibility](pictures/userdata.png)
 
