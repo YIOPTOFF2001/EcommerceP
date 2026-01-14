@@ -256,6 +256,13 @@ I implemented an order creation system that allows authenticated users to place 
 
 ![Alt text for accessibility](pictures/placeorder.png)
 
+### Admin process
+
+I implemented an admin order management flow that allows administrators to securely view and manage customer orders. Orders placed by users are stored in a PostgreSQL database and retrieved through a protected admin dashboard. Admin users authenticate with elevated privileges, enabling them to view order details, track order statuses, and update orders as they move through the fulfillment process. This design ensures role-based access control, data integrity, and a clear separation between customer-facing and administrative functionality.
+
+
+
+![Alt text for accessibility](pictures/admin.png)
 
 
 
