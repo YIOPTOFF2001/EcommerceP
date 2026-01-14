@@ -250,6 +250,13 @@ I implemented a secure login system for the e-commerce platform. The frontend lo
 
 ![Alt text for accessibility](pictures/e.png)
 
+## Step 3: Order Management
+
+I implemented an order creation system that allows authenticated users to place and store orders securely. After a user logs in, the frontend sends selected product and order details to a backend endpoint. The backend validates the request, confirms user authentication, and processes the order before storing it in a PostgreSQL database running in Docker. Orders are linked to users through relational database design, ensuring data integrity and enabling order tracking and history. This approach demonstrates a complete transaction flow from frontend interaction to persistent backend storage. Once the order is placed, the user will get an confirmation texts to show that the order has been successfully placed.
+
+![Alt text for accessibility](pictures/e.png)
+
+
 
 
 
