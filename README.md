@@ -244,6 +244,11 @@ Database: PostgreSQL running in Docker – stores persistent user data
 ![Alt text for accessibility](pictures/userdata.png)
 
 
+### Step 3: Connecting the login page to the database
+
+I implemented a secure login system for the e-commerce platform. The frontend login form (login.html) collects user credentials and submits them to the backend (login.php). The backend then connects to the PostgreSQL database running in Docker, looks up the user by email, and verifies the submitted password against the securely hashed password stored in the database. Only after successful verification does the backend authenticate the user, maintaining session integrity and ensuring the database remains secure. This setup ensures a seamless and safe login flow while adhering to best practices in password handling and data protection.
+
+
 
 
 
