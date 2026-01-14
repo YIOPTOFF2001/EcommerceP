@@ -169,7 +169,8 @@ The featred pieces section display the most sought after items.
 
 ![Alt text for accessibility](pictures/name.png)
 
-## User Authentification
+## User Authentification: Login and Create Pages
+
 
 ![Alt text for accessibility](pictures/create.png)
 
@@ -178,6 +179,9 @@ As specified by the cient, the user can create a users account securely to get a
 ![Alt text for accessibility](pictures/login.png)
 
 After the user has created a valid account, he/she will be directed to the login page to get access to the site. If one of the details in incorrectly entered, an error message will be displayed. For example, if the user enters a wrong password, the error handling messsage will show. If the user doesn't have an account, they will be directed to the create account page.
+
+
+## Step 2: Backend Development
 
 
 
