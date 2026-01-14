@@ -224,6 +224,23 @@ CREATE TABLE users (
 
 ### Step 2: Connecting the create account page to the database
 
+
+Once the database was running, I defined the relational schema using SQL inside the database container. The main table created was users, which stores user information such as full name, email, hashed passwords, roles, and account creation timestamps. This setup ensured data integrity and enforceable constraints, like unique email addresses.
+
+Next, I connected the backend to the database. The backend was handled by PHP, running in a Docker Apache container (ecommerce-web). I created a file named register.php that receives form submissions from the frontend, validates inputs, hashes passwords for security, and inserts new users into the PostgreSQL database.
+
+On the frontend, I created register.html, which contains the user registration form. When a user submits the form, the data is sent via a POST request to register.php. The backend handles all processing and communicates directly with the database. After successfully storing the user, the backend returns a response confirming account creation.
+
+This approach maintains clear separation of layers:
+
+Frontend: register.html – collects user input
+
+Backend: register.php – processes data, enforces security, connects to the database
+
+Database: PostgreSQL running in Docker – stores persistent user data
+
+
+
 ![Alt text for accessibility](pictures/userdata.png)
 
 
