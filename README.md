@@ -147,7 +147,7 @@ Yolanda Mussana
 
 ![Alt text for accessibility](pictures/home.png)
 
-As per client request, I have created a simple, clean and modern homw page for the ecommerce store. The home page consist of the categories section, blog, user account, wiahlist, cart, support section and many others listed. The client wanted me to stick with her colour scheme, which was well represented on the site.
+As per client request, I have created a simple, clean and modern home page for the ecommerce store. The home page consist of the categories section, blog, user account, wishlist, cart, support section and many others listed. The client wanted me to stick with her colour scheme, which was well represented on the site.
 
 ![Alt text for accessibility](pictures/category.png)
 
@@ -155,11 +155,11 @@ The category section groups similar products together.
 
 ![Alt text for accessibility](pictures/modal.png)
 
-The modal sections enables users to view the deatured products listed on the site. The user can either add the product to the cart or add the product to the wishlist.
+The modal sections enables users to view the featured products listed on the site. The user can either add the product to the cart or add the product to the wishlist.
 
 ![Alt text for accessibility](pictures/dont.png)
 
-The featred pieces section display the most sought after items.
+The featured pieces section display the most sought after items.
 
 ![Alt text for accessibility](pictures/disc.png)
 
@@ -174,7 +174,7 @@ The featred pieces section display the most sought after items.
 
 ![Alt text for accessibility](pictures/create.png)
 
-As specified by the cient, the user can create a users account securely to get access to the site information. One the user creates an account, the details are stored securely at the backend. No unauthorized user has access to the site. Passwords are securelty created and saved.
+As specified by the cient, the user can create a users account securely to get access to the site information. Once the user creates an account, the details are stored securely at the backend. No unauthorized user has access to the site. Passwords are securely created and saved.
 
 ![Alt text for accessibility](pictures/login.png)
 
@@ -273,7 +273,7 @@ On the frontend, user-facing pages such as account creation, login, and checkout
 
 The admin functionality completes the system by enabling order visibility and management from a centralized dashboard. Orders placed by customers are stored in the database in real time and can be retrieved, reviewed, and processed by an administrator. This closes the operational loop and transforms the project from a simple website into a working commerce platform with both customer and administrative perspectives.
 
-Overall, this project reflects practical full-stack development skills, including database modeling, server-side programming, frontend-backend integration, containerization with Docker, and deployment using modern tools. It was designed with real-world use cases in mind and lays a solid foundation for further expansion, such as payment integration, inventory management, and analytics. More importantly, it demonstrates the ability to think like a systems builder, not just a coder, which is the core of professional software development 🚀
+
 
 
 
