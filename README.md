@@ -183,6 +183,51 @@ After the user has created a valid account, he/she will be directed to the login
 
 ## Step 2: Backend Development
 
+### Step 1: Create a docker compose. yml file
+
+```
+version: "3.9"
+
+services:
+  db:
+    image: postgres:15
+    container_name: ecommerce-postgres
+    environment:
+      POSTGRES_USER: yolanda
+      POSTGRES_PASSWORD: demopassword
+      POSTGRES_DB: francesca_de_luis
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
+```
+
+Enter the databse container and create a users table
+
+```
+docker-compose exec db psql -U yolanda -d francesca_de_luis
+```
+
+```
+CREATE TABLE users (
+  id SERIAL PRIMARY KEY,
+  full_name VARCHAR(100) NOT NULL,
+  email VARCHAR(150) UNIQUE NOT NULL,
+  password_hash TEXT NOT NULL,
+  role VARCHAR(50) DEFAULT 'customer',
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+```
+
+
+
+
+
+![Alt text for accessibility](pictures/userdata.png)
+
 
 
 
